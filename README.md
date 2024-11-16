@@ -20,7 +20,7 @@
 - **Frameworks**:
   - SwiftUI
   - Combine
-- **Database**: Core Data (or mention your database if external)
+- **Database**: Core Data 
 - **Version Control**: Git & GitHub
 
 ---
