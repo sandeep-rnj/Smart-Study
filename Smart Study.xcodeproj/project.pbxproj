@@ -45,6 +45,16 @@
 			path = "Smart StudyUITests";
 			sourceTree = "<group>";
 		};
+		F19A08712CE5FB8E0016B45A /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F19A08752CE5FBCE0016B45A /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,8 @@
 		F19A08302CE5FA6D0016B45A = {
 			isa = PBXGroup;
 			children = (
+				F19A08752CE5FBCE0016B45A /* Views */,
+				F19A08712CE5FB8E0016B45A /* Model */,
 				F19A083B2CE5FA6D0016B45A /* Smart Study */,
 				F19A08512CE5FA710016B45A /* Smart StudyTests */,
 				F19A085B2CE5FA710016B45A /* Smart StudyUITests */,
@@ -109,6 +121,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				F19A083B2CE5FA6D0016B45A /* Smart Study */,
+				F19A08712CE5FB8E0016B45A /* Model */,
+				F19A08752CE5FBCE0016B45A /* Views */,
 			);
 			name = "Smart Study";
 			packageProductDependencies = (

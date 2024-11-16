@@ -1,20 +1,13 @@
-//
-//  Smart_StudyApp.swift
-//  Smart Study
-//
-//  Created by Sandeep Ranjan on 14/11/24.
-//
-
 import SwiftUI
 
 @main
-struct Smart_StudyApp: App {
-    let persistenceController = PersistenceController.shared
+struct SmartStudyApp: App {
+    @StateObject private var dataManager = DataManager()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(dataManager)
         }
     }
 }
